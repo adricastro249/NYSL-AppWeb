@@ -1,0 +1,144 @@
+
+    *body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1em;
+}
+
+
+#general > section {
+    display: none;
+}
+
+#general > section.mostrar {
+    display: block !important;
+}
+
+
+#bodyHome {
+    background-image: url("../disenios/fondoHome.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    margin-top: 10%;
+}
+
+#logoHome {
+    margin-top: 10%;
+    margin-bottom: 40%;
+    height: 65%;
+    width: 65%; 
+}
+.botonesIndex {
+    font-size: 3.5vh;
+    margin:  auto;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: auto;
+    width: 80%;
+    border-color: white;
+}
+
+#bodyBlanco {
+    background-image: url("../disenios/top1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.botones {
+    font-size: 2.5vh;
+    margin: auto;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    border-color: white;
+    padding: 3%;
+}
+
+.modal-header {
+    background: #00BBB3
+}
+
+.iconos{
+width: 8%;
+height: 8%;
+}
+
+.iconosGrandes{
+    width: 55%;
+height: 55%;
+   float: right;
+}
+
+.botonesEstadio,
+.botonesEquipos,
+.botonEquipos,
+#botonFecha,
+#botonLugar,
+#botonEquipos,
+#botonFecha,
+#botonLugar{
+    border-radius: 4px;
+    border: 1px solid;
+    color: white;
+}
+
+#botonFecha,
+.botonesEquipos,
+.botonSep {
+    background: linear-gradient(to right, #1D70B7, #00A099);
+}
+
+#botonLugar, .botonesEstadio, .botonOct
+{
+    background: linear-gradient(to right, #00A099, #1D70B7);
+}
+
+
+#sedes, #equipos, #mesesTodo{
+    margin-top: 35%;
+}
+
+/* BARRA DE NAVAGACIÓN FOOTER */
+
+#footer {
+    display: none;
+}
+
+.footer-activo {
+    display: block !important;
+}
+
+#footerBlanco {
+    background-image: url("../disenios/bottom1.png");
+    background-repeat: no-repeat;
+}
+
+.footer-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footerItem {
+    float: left;
+    width: 33.333%;
+    height: 7vh;
+    text-decoration: none;
+}
+
+.itemFooter {
+    height: 4.5vh;
+    display: block;
+    margin: 1vh auto 0 auto;
+}
